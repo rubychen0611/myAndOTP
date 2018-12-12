@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="org.shadowice.flocke.andotp.Activities.HelpActivity">
+   <ListView
+        android:id="@+id/help_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@color/material_blue_grey_800"
+        android:dividerHeight="1dp"
+        android:entries="@array/help_titles" />
+</android.support.constraint.ConstraintLayout>

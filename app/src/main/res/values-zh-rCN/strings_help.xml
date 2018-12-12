@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="help_titles">
+        <item>如何添加二步验证？</item>
+        <item>如何管理和查找账户？</item>
+        <item>如何备份和还原账户信息？</item>
+    </string-array>
+
+    <string name="help_title_1">如何添加二步验证？</string>
+    <string name="help_details_1_1"> OTP， 全称叫One-time Password,也称动态口令，是根据专门的算法每隔60秒生成一个与时间相关的、不可预测的随机数字组合。具有无须记忆、双重保险、简单易行、无缝兼容等特点，是一种安全便捷的帐号防盗技术，可以有效保护交易和登录的认证安全，采用动态口令就无需定期更换密码，安全省心。\n本APP是一款使用了OTP技术的认证器应用程序，它实现了TOTP和HOTP两种一次性密码生成算法，只需扫描二维码即可生成6位数字的动态验证码来帮助用户完成两步验证，且不需要访问用户的帐户密码，也不需要访问网络。双重密码保证了用户的网上账户安全性。\n下面以亚马逊网站为例，带您体验一遍二步验证的流程。\n首先打开亚马逊网站的二步验证页面（https://www.amazon.cn/a/settings/approval/appbackup，可从快捷链接中直接都找到）， </string>
+    <string name="help_details_1_2">使用本APP的二维码扫描功能扫描该二维码，这时APP主页出现一个6位验证码，输入后提交便完成验证。</string>
+    <string name="help_title_2">如何管理和查找账户？</string>
+    <string name="help_details_2">对每个账户，点击右边的管理图标可对标签进行重命名、新建标签、更改图像的标致以方便识别各个账户、移除账户。 \n设置好标签后点击屏幕左上角可对标签进行一些筛选，以便快速找到一类的账户信息。 \n点击右上角左数第一个按钮可对账户进行排序操作，提供无序、按标签排序、按最近使用三个选项。第二个按钮可对账户信息进行查找操作。</string>
+    <string name="help_title_3">如何备份和还原账户信息？</string>
+    <string name="help_details_3">主界面右上角选择备份选项后，可选择将所有账户信息以纯文本或加密方式备份到JSON文件中，然后您可将该文件导入另一台Android设备中，安装本APP后从该文件还原所有账户信息。注意还原时需要选择是否替换现有条目。</string>
+</resources>

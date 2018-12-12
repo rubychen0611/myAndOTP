@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="IconDuplicates">
+        <ignore path="src/debug/res/mipmap-xxhdpi/ic_launcher_round.png" />
+    </issue>
+</lint>
